@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		6BA905C6AE023D6F0CB5ED74 /* Pods_ix_location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFF0E2E170CFA712D50E2EA /* Pods_ix_location.framework */; };
 		CA0B26DF1F0A8A6E006F0CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26DE1F0A8A6E006F0CF7 /* AppDelegate.swift */; };
-		CA0B26E11F0A8A6E006F0CF7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26E01F0A8A6E006F0CF7 /* FirstViewController.swift */; };
-		CA0B26E31F0A8A6E006F0CF7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26E21F0A8A6E006F0CF7 /* SecondViewController.swift */; };
+		CA0B26E11F0A8A6E006F0CF7 /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26E01F0A8A6E006F0CF7 /* GoogleMapsViewController.swift */; };
+		CA0B26E31F0A8A6E006F0CF7 /* AppleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26E21F0A8A6E006F0CF7 /* AppleMapsViewController.swift */; };
 		CA0B26E61F0A8A6E006F0CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0B26E41F0A8A6E006F0CF7 /* Main.storyboard */; };
 		CA0B26E81F0A8A6E006F0CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0B26E71F0A8A6E006F0CF7 /* Assets.xcassets */; };
 		CA0B26EB1F0A8A6E006F0CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0B26E91F0A8A6E006F0CF7 /* LaunchScreen.storyboard */; };
+		CA0B26F31F0AD204006F0CF7 /* ActivityLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26F21F0AD204006F0CF7 /* ActivityLogViewController.swift */; };
+		CA0B26F51F0AD282006F0CF7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0B26F41F0AD282006F0CF7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +23,14 @@
 		AAFF0E2E170CFA712D50E2EA /* Pods_ix_location.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ix_location.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0B26DB1F0A8A6E006F0CF7 /* ix-location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ix-location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0B26DE1F0A8A6E006F0CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA0B26E01F0A8A6E006F0CF7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CA0B26E21F0A8A6E006F0CF7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CA0B26E01F0A8A6E006F0CF7 /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewController.swift; sourceTree = "<group>"; };
+		CA0B26E21F0A8A6E006F0CF7 /* AppleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsViewController.swift; sourceTree = "<group>"; };
 		CA0B26E51F0A8A6E006F0CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA0B26E71F0A8A6E006F0CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0B26EA1F0A8A6E006F0CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0B26EC1F0A8A6F006F0CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0B26F21F0AD204006F0CF7 /* ActivityLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLogViewController.swift; sourceTree = "<group>"; };
+		CA0B26F41F0AD282006F0CF7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FA20171FEB18DC7C5BC2218C /* Pods-ix-location.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ix-location.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ix-location/Pods-ix-location.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,8 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				CA0B26DE1F0A8A6E006F0CF7 /* AppDelegate.swift */,
-				CA0B26E01F0A8A6E006F0CF7 /* FirstViewController.swift */,
-				CA0B26E21F0A8A6E006F0CF7 /* SecondViewController.swift */,
+				CA0B26E01F0A8A6E006F0CF7 /* GoogleMapsViewController.swift */,
+				CA0B26E21F0A8A6E006F0CF7 /* AppleMapsViewController.swift */,
+				CA0B26F21F0AD204006F0CF7 /* ActivityLogViewController.swift */,
+				CA0B26F41F0AD282006F0CF7 /* SettingsViewController.swift */,
 				CA0B26E41F0A8A6E006F0CF7 /* Main.storyboard */,
 				CA0B26E71F0A8A6E006F0CF7 /* Assets.xcassets */,
 				CA0B26E91F0A8A6E006F0CF7 /* LaunchScreen.storyboard */,
@@ -214,9 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA0B26E31F0A8A6E006F0CF7 /* SecondViewController.swift in Sources */,
+				CA0B26E31F0A8A6E006F0CF7 /* AppleMapsViewController.swift in Sources */,
 				CA0B26DF1F0A8A6E006F0CF7 /* AppDelegate.swift in Sources */,
-				CA0B26E11F0A8A6E006F0CF7 /* FirstViewController.swift in Sources */,
+				CA0B26F31F0AD204006F0CF7 /* ActivityLogViewController.swift in Sources */,
+				CA0B26E11F0A8A6E006F0CF7 /* GoogleMapsViewController.swift in Sources */,
+				CA0B26F51F0AD282006F0CF7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +390,7 @@
 				CA0B26F11F0A8A6F006F0CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
